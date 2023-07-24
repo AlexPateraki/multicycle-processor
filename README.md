@@ -1,1 +1,4 @@
 # multicycle-processor
+Τhis project aims to design a multi-cycle processor. First, an arithmetic and logical unit for respective operations is designed, as well as a register file using the Hardware Description Language (HDL) called VHDL using Xilinx tools. The mentioned unit likely represents a hardware module or component that can perform mathematical calculations and logical operations, while the register file serves as a storage mechanism for data. The simulation using Xilinx tools allows the verification and testing of the VHDL design before actual implementation on hardware.
+Then instruction set architecture is coded to be used in the upcoming deliverables and fetch stage and decoding stage as well. The Execute (EX) stage is designed next and finally the Memory Access (MEM) stage.
+After the right connection of the corresponding wiring, Control unit of the Datapath is constucted so that integration can be completed and create a multi-cycle processor.
